@@ -1,3 +1,5 @@
 #Project 1
 
-Web scraping on Brazil's 2020 census "Censo da Educação Superior 2020" and comparison of number of new students in Brazil online and face-to-face classes in 2020¶
+Web scraping on Brazil's 2020 census "Censo da Educação Superior 2020" and comparison of number of new students in Brazil online and face-to-face classes in 2020
+
+the .gif is the plot result if it does not open in the notebook
