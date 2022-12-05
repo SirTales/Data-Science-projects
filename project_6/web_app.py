@@ -8,7 +8,7 @@ st.title('FIFA World Cup Qatar 2022™ A.I.')
 
 # here comes all the code that we just did!
 
-teams = pd.read_excel('data/DadosCopaDoMundoQatar2022.xlsx',
+teams = pd.read_excel('DadosCopaDoMundoQatar2022.xlsx',
                         sheet_name ='selecoes',
                         names = ['Teams_BR',
                                  'Group',
