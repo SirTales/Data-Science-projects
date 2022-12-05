@@ -9,7 +9,8 @@ st.title('FIFA World Cup Qatar 2022™ A.I.')
 
 # here comes all the code that we just did!
 cwd = os.getcwd()
-st.title(cwd)
+test = os.listdir()
+st.title(test)
 teams = pd.read_excel('/app/data-science-projects/data/DadosCopaDoMundoQatar2022.xlsx',
                         sheet_name ='selecoes',
                         names = ['Teams_BR',
