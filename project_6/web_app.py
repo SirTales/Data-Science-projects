@@ -8,7 +8,7 @@ st.title('FIFA World Cup Qatar 2022™ A.I.')
 
 # here comes all the code that we just did!
 
-teams = pd.read_excel('data/DadosCopaDoMundoQatar2022.xlsx',
+teams = pd.read_excel('https://github.com/SirTales/Data-Science-projects/tree/master/project_6/data/DadosCopaDoMundoQatar2022.xlsx',
                         sheet_name ='selecoes',
                         names = ['Teams_BR',
                                  'Group',
@@ -130,7 +130,7 @@ st.table(matrix.applymap(roundprob))
 st.markdown('---')
 st.markdown('## Cup games probabilities')
 
-cupgames = pd.read_excel('data/outputEstimativasJogosCopa.xlsx', index_col = 0)
+cupgames = pd.read_excel('https://github.com/SirTales/Data-Science-projects/tree/master/project_6/data/outputEstimativasJogosCopa.xlsx', index_col = 0)
 
 st.table(cupgames[['grupo','seleção1','seleção2', 'Victory', 'Tie', 'Defeat']])
 
