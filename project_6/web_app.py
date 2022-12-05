@@ -133,7 +133,7 @@ st.table(matrix.applymap(roundprob))
 st.markdown('---')
 st.markdown('## Cup games probabilities')
 
-cupgames = pd.read_excel('data/outputEstimativasJogosCopa.xlsx', index_col = 0)
+cupgames = pd.read_excel('/app/data-science-projects/project_6/data/outputEstimativasJogosCopa.xlsx', index_col = 0)
 
 st.table(cupgames[['grupo','seleção1','seleção2', 'Victory', 'Tie', 'Defeat']])
 
