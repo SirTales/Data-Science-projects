@@ -10,22 +10,22 @@ st.title('FIFA World Cup Qatar 2022™ A.I.')
 # here comes all the code that we just did!
 cwd = os.getcwd()
 st.title(cwd)
-# teams = pd.read_excel('data/DadosCopaDoMundoQatar2022.xlsx',
-#                         sheet_name ='selecoes',
-#                         names = ['Teams_BR',
-#                                  'Group',
-#                                  'GroupNumber',
-#                                  'Team',
-#                                  'FIFAsRankPosition',
-#                                  'MarketValue',
-#                                  'FIFAsRankingPoints',
-#                                  'Confederation',
-#                                  'WorldCups',
-#                                  'SpotlightPlayer',
-#                                  'PictureOfPlayer',
-#                                  'FlagsLinkSmall',
-#                                  'FlagsLinksBig'],
-#                         index_col = 0)
+teams = pd.read_excel('/app/data-science-projects/master/project_6/data/DadosCopaDoMundoQatar2022.xlsx',
+                        sheet_name ='selecoes',
+                        names = ['Teams_BR',
+                                 'Group',
+                                 'GroupNumber',
+                                 'Team',
+                                 'FIFAsRankPosition',
+                                 'MarketValue',
+                                 'FIFAsRankingPoints',
+                                 'Confederation',
+                                 'WorldCups',
+                                 'SpotlightPlayer',
+                                 'PictureOfPlayer',
+                                 'FlagsLinkSmall',
+                                 'FlagsLinksBig'],
+                        index_col = 0)
 
 # fifa = pd.DataFrame(teams['FIFAsRankingPoints'])
 # minmax = MinMaxScaler(feature_range=(0.15,1))                  
